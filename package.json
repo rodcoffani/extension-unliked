@@ -1,0 +1,15 @@
+{
+  "name": "extension-unliked",
+  "version": "1.0.0",
+  "description": "Unlike videos from your youtube with only one click instead of two!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rodrigo Coffani",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "eslint": "^8.39.0"
+  }
+}
