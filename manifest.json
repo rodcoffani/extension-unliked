@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Unliked",
   "description": "Unlike videos from your youtube with only one click instead of two!",
-  "version": "1.0",
+  "version": "0.0.1",
   "action": {
     "default_popup": "src/popup/popup.html",
     "default_icon": {
