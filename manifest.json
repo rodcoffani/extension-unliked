@@ -18,11 +18,16 @@
   },
   "content_scripts": [
     {
-      "js": ["src/scripts/content.js"],
       "matches": [
-        "https://www.youtube.com/playlist?list=LL",
-        "https://youtube.com/playlist?list=LL"
-      ]
+        "https://www.youtube.com/*",
+        "https://youtube.com/*"
+      ],
+      "js": ["src/scripts/content.js"],
+      "run_at": "document_end",
+      "allFrames": true
     }
+  ],
+  "permissions": [
+    "identity"
   ]
 }
