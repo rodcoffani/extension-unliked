@@ -1,10 +1,28 @@
 {
   "manifest_version": 3,
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "Unliked",
+  "description": "Unlike videos from your youtube with only one click instead of two!",
   "version": "1.0",
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
-  }
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "assets/icons/icon_16.png",
+      "32": "assets/icons/icon_32.png"
+    }
+  },
+  "icons": {
+    "16": "assets/icons/icon_16.png",
+    "32": "assets/icons/icon_32.png",
+    "48": "assets/icons/icon_48.png",
+    "128": "assets/icons/icon_128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["src/scripts/content.js"],
+      "matches": [
+        "https://www.youtube.com/playlist?list=LL",
+        "https://youtube.com/playlist?list=LL"
+      ]
+    }
+  ]
 }
