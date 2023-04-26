@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    border: 2px solid white;
+    border-radius: 0.25rem;
+    color: white;
+}
+.main {
+    border-radius: 0.25rem;
+    width: 15rem;
+    padding: 0.5rem 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181b1d;
+}
+.title h1 {
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+.content p {
+    padding: 1.5rem;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.btn {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    font-family: 'Roboto';
+    cursor: pointer;
+    background-image: linear-gradient(45deg, #536DFE, #6A3DE8);
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    color: white;
+}
+.link:visited {
+    color: white;
+}
